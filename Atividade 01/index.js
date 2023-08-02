@@ -1,12 +1,15 @@
 import { user } from "./modules/user.js";
 
+
 const newUser = new user()
 
-document.querySelector('.logar').addEventListener("click", (ev)=> {
+document.querySelector('.logar').addEventListener("click", function(ev) {
     ev.preventDefault()
 
-    console.log(newUser)
-    newUser.login()
+    const user = document.getElementById('user').value
+    const password = document.getElementById('password').value
+
+    newUser.login(user, password)
 })
 
 
