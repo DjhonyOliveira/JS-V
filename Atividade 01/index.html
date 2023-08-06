@@ -9,19 +9,21 @@
 </head>
 <body>
     <section>
-        <form class="login formulario-login">
-            <h3>LOGIN</h3>
-            <div class="name espaco-top">
-                <label for="user">Usuário: </label>
-                <input type="text" id="user">
-            </div>
-            <div class="senha espaco-top">
-                <label for="password">Senha: </label>
-                <input type="password" id="password">
-            </div>
-            <button class="logar">Entrar</button>
-        </form>
-        <button class="cadastrar"><a href="./pages/cadastro.html" style="text-decoration: none;">Criar usuário</a></button>
+        <div class="content-user">
+            <form class="login formulario-login">
+                <h3>LOGIN</h3>
+                <div class="inputs">
+                    <div class="name espaco-top">
+                        <input type="text" id="user" placeholder="Usuário">
+                    </div>
+                    <div class="senha espaco-top">
+                        <input type="password" id="password" placeholder="Senha">
+                    </div>
+                </div>
+                <button class="logar">Entrar</button>
+            </form>
+            <button class="cadastrar"><a href="./pages/cadastro.html" style="text-decoration: none;">Criar usuário</a></button>
+        </div>
     </section>
 </body>
 </html>
