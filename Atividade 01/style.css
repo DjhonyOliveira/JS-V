@@ -5,10 +5,23 @@
 }
 
 .content-user {
-    background-color: #0002;
-    width: 50%;
-    margin: auto;
-    /* padding: 5px 0; */
+    background: rgb(135,23,6);
+    background: linear-gradient(90deg, rgba(135,23,6,0.5) 7%, rgba(8,88,135,0.5) 71%, rgba(8,88,135,0.8211659663865546) 83%);
+    padding: 5% 15%;  
+    border-radius: 10px;
+    box-shadow: 5px 2px 5px 1px;  
+}
+
+section {
+    background-image: url(./resources/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 form {
@@ -16,8 +29,6 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;
-    /* margin: 20% auto auto auto; */
 }
 
 .logar, .cadastrar {
@@ -26,9 +37,8 @@ form {
     border-radius: 5px;
 }
 
-.name, .senha {
+.espaco-top {
     padding-top: 10px;
-    text-align: end;
 }
 
 #user, #password {
@@ -40,4 +50,8 @@ form {
     display: flex;
     justify-content: center;
     margin: 0 auto 0 auto;
+}
+
+.cadastrar:hover, .logar:hover {
+    scale: 1.1;
 }

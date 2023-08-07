@@ -12,6 +12,12 @@ document.querySelector('.logar').addEventListener("click", function(ev) {
     newUser.login(user, password)
 })
 
+document.querySelector('.cadastrar').addEventListener("click", (ev)=>{
+    ev.preventDefault()
+
+    window.location.href = "./pages/cadastro.html"
+})
+
 
 
 
