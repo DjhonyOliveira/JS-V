@@ -12,21 +12,30 @@
         <h3 class="center">Para cadastro, preencha os campos a baixo</h3>
     </header>
     <section>
-        <form class="cadastrar">
-            <div class="dados name">
-                <label for="name-user">Informe seu nome</label>
-                <input type="text" id="name-user">
-            </div>
-            <div class="dados email">
-                <label for="email-user">Informe seu e-mail</label>
-                <input type="email" id="email-user">
-            </div>
-            <div class="dados password">
-                <label for="password-user">Informe sua senha</label>
-                <input type="password" id="password-user">
-            </div>
-            <button class="enviar">Cadastrar</button>
-        </form>
+        <div class="cadastro">
+            <h2>Cadastrar Usuário</h2>
+            <form class="cadastrar">
+                <div class="dados name">
+                    <input type="text" id="name-user" required>
+                    <label>Informe seu nome</label>
+                </div>
+                <div class="dados email">
+                    <input type="email" id="email-user"required>
+                    <label>Informe seu e-mail</label>
+                </div>
+                <div class="dados password">
+                    <input type="password" id="password-user"required>
+                    <label>Informe sua senha</label>
+                </div>
+                <button class="enviar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    CADASTRAR
+                </button>
+            </form>
+        </div>
     </section>
 </body>
 </html>
