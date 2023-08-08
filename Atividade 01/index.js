@@ -10,6 +10,8 @@ document.querySelector('.logar').addEventListener("click", function(ev) {
     const password = document.getElementById('password').value
 
     newUser.login(user, password)
+
+    
 })
 
 document.querySelector('.cadastrar').addEventListener("click", (ev)=>{
